@@ -1,28 +1,100 @@
 {
-    "date_of_transaction":"02-20-2019",
-    "time_of_transaction":"2:45 PM",
-    "user_id":7893452221,
-    "vendor_id":8849506039,
-    "invoice_id":78292,
+ "transactions": [
+        {
+        "date_of_transaction":"02-20-2019",
+        "time_of_transaction":"2:45 PM",
+        "user_id":7893452221,
+        "vendor_id":8849506039,
+        "invoice_id":78292,
+        "items_purchased": [
+            {
+                "item_name":"Haribo Gummy Bears",
+                "quantity_purchased":3,
+                "item_price":1.75
+            },
+            {
+                "item_name":"Milk",
+                "quantity_purchased":1,
+                "item_price":1.50
+            },
+            {
+                "item_name":"Soap",
+                "quantity_purchased":2,
+                "item_price":1.99
+            },
+            {
+                "item_name":"Carrots",
+                "quantity_purchased":8,
+                "item_price":4.32
+            }
+        ]
+    },
+    {
+    "date_of_transaction":"12-25-2019",
+    "time_of_transaction":"9:30 AM",
+    "user_id":2221232135,
+    "vendor_id":5468938495,
+    "invoice_id":99012,
     "items_purchased": [
-        {"item_name":"Haribo Gummy Bears",
-         "quantity_purchased":3,
-         "item_price":1.75
-        },
-        {"item_name":"Milk",
-         "quantity_purchased":1,
-         "item_price":1.50
-        },
-        {
-         "item_name":"Soap",
-         "quantity_purchased":2,
-         "item_price":1.99
-        },
-        {
-         "item_name":"Carrots",
-         "quantity_purchased":8,
-         "item_price":4.32
-        }
-
-    ]
+            {
+                "item_name":"Turkey",
+                "quantity_purchased":3,
+                "item_price":22.35
+            },
+            {
+                "item_name":"Milk",
+                "quantity_purchased":1,
+                "item_price":1.50
+            },
+            {
+                "item_name":"Cranberry Juice",
+                "quantity_purchased":2,
+                "item_price":1.65
+            },
+            {
+                "item_name":"Flour",
+                "quantity_purchased":1,
+                "item_price":1.00
+            },
+            {
+                "item_name":"Soda",
+                "quantity_purchased":2,
+                "item_price":1.50
+            }
+        ]
+    },
+    {
+    "date_of_transaction":"11-21-2019",
+    "time_of_transaction":"3:31 PM",
+    "user_id":2221232135,
+    "vendor_id":4534564332,
+    "invoice_id":67767,
+    "items_purchased": [
+            {
+                "item_name":"Apple Ear Pods",
+                "quantity_purchased":1,
+                "item_price":250.00
+            }
+        ]
+    },
+    {
+    "date_of_transaction":"11-21-2019",
+    "time_of_transaction":"3:31 PM",
+    "user_id":445442684,
+    "vendor_id":5622357643,
+    "invoice_id":67767,
+    "items_purchased": [
+            {
+                "item_name":"Small Ice Cream Cup",
+                "quantity_purchased":2,
+                "item_price":6.65
+            },
+            {
+                "item_name":"Sprikle Topping",
+                "quantity_purchased":1,
+                "item_price":0.99
+            }
+        ]
+    }
+ ]
 }

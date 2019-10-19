@@ -1,8 +1,20 @@
 {
-    "user_id":7893452221,
-    "first_name":"Tommy",
-    "last_name":"Jackson",
-    "last_four_digits":4975,
-    "email_address":"tommy.jackson45@hotmail.com",
-    "phone_number":2356789953
+    "users":[
+        {
+        "user_id":7893452221,
+        "first_name":"Tommy",
+        "last_name":"Jackson",
+        "last_four_digits":4975,
+        "email_address":"tommy.jackson45@hotmail.com",
+        "phone_number":2356789953
+        },
+        {
+        "user_id":2221232135,
+        "first_name":"Abagail",
+        "last_name":"Anderson",
+        "last_four_digits":9982,
+        "email_address":"abby13@gmail.com",
+        "phone_number":7688263677
+        }
+    ]
 }
