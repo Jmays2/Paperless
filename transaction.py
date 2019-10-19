@@ -10,17 +10,17 @@ db = client['paperless']
 
 
 
-class User(object):
+class Transaction(object):
 
     def __init__(self):
-        self.conn = client['paperless']['user_data']
-        self.user = User
+        self.conn = client['paperless']['transactions']
+        self.transaction = Transaction
 
     def populate_user_data(self):
-        db = self.conn['paperless']['user_data']
-        userData = json.load(self.user)
+        db = self.conn['paperless']['transactions']
+        transaction_data = json.load(self.transaction)
 
-        db.insert_one(userData)
+        db.insert_one(transaction_data)
 
 
     
