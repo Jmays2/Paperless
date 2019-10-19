@@ -1,0 +1,28 @@
+{
+    "date_of_transaction":"02-20-2019",
+    "time_of_transaction":"2:45 PM",
+    "user_id":7893452221,
+    "vendor_id":8849506039,
+    "invoice_id":78292,
+    "items_purchased": [
+        {"item_name":"Haribo Gummy Bears",
+         "quantity_purchased":3,
+         "item_price":1.75
+        },
+        {"item_name":"Milk",
+         "quantity_purchased":1,
+         "item_price":1.50
+        },
+        {
+         "item_name":"Soap",
+         "quantity_purchased":2,
+         "item_price":1.99
+        },
+        {
+         "item_name":"Carrots",
+         "quantity_purchased":8,
+         "item_price":4.32
+        }
+
+    ]
+}
