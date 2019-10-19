@@ -1,18 +1,19 @@
 from pymongo import MongoClient
 # pprint library is used to make the output look more pretty
-from pprint import pprint
+import pprint
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
 client = MongoClient("mongodb+srv://cwilson:Cps41906243@cluster0-lftpp.gcp.mongodb.net/test")
-db=client.cwilson
-# Issue the serverStatus command and print the results
-serverStatusResult=db.command("serverStatus")
-pprint(serverStatusResult)
 
-#class User(object):
+db = client['paperless']
+col = db['user_data']
+x = col.find_one()
+print(x)
 
-#	firstName
-#	lastName 
-#	card_digits = ""
-#	userID
+class User(object):
 
-	
+    def __init__(self):
+        self.conn = client['paperless']['user_data']
+        self.user = self.conn.find_one()
+        print(self.user)
+    
+    def add_to
