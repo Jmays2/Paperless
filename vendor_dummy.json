@@ -1,6 +1,34 @@
 {
-    "vendor_id":8849506039,
-    "vendor_name":"Walmart",
-    "vendor_address":"9239 Parkdale Dr., Madison, WI 53706",
-    "vendor_phone":5064646578
+    "vendors": [
+        {
+        "vendor_id":8849506039,
+        "vendor_name":"Walmart",
+        "vendor_address":"9239 Parkdale Dr., Madison, WI 53706",
+        "vendor_phone":5064646578
+        },
+        {
+        "vendor_id":5468938495,
+        "vendor_name":"Safeway",
+        "vendor_address":"2134 Safeway Drive, Safeway, WI 53706",
+        "vendor_phone":5786903345
+        },
+        {
+        "vendor_id":4534564332,
+        "vendor_name":"Apple",
+        "vendor_address":"8892 Apple Ave., Apple, MD 20744",
+        "vendor_phone":3019874563
+        },
+        {
+        "vendor_id":2212122313,
+        "vendor_name":"Coldstones",
+        "vendor_address":"Cold Stone HQs, Washington, DC, 34596",
+        "vendor_phone":3438943234
+        },
+        {
+        "vendor_id":5622357643,
+        "vendor_name":"Ben & Jerry's Ice Cream",
+        "vendor_address":"999 Icy Road, Vermont, USA 89899",
+        "vendor_phone":7868763467
+        }
+    ]
 }
