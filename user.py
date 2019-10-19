@@ -13,7 +13,13 @@ class User(object):
 
     def __init__(self):
         self.conn = client['paperless']['user_data']
-        self.user = self.conn.find_one()
-        print(self.user)
+        self.user = user
+
+    def populate_user_data(self):
+        db = self.conn['paperless']['user_data']
+        userData = json.load(self.user)
+
+        db.insert_one(userData)
+
     
-    def add_to
+
