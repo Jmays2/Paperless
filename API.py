@@ -1,17 +1,12 @@
 from flask import Flask
-from flask import jsonify
 from flask import request
-from getAllTransactions import getTransactions
-from getOneTransaction import getTransaction
-from getUserData import getUser
-from create_new_transaction import createTransaction
+from get_data import getTransaction,getUser,getTransactions, createTransaction
 
 app = Flask(__name__)
 
 @app.route("/getAllTransactions",  methods=['GET','POST'])
 def getAllTransactions():
-    user_id = int(request.form.get("user_id"))
-    return getTransactions(user_id)
+    return getTransactions(int(request.form.get("user_id")))
 
 @app.route("/getOneTransaction",  methods=['GET','POST'])
 def getOneTransaction():
