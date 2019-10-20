@@ -7,27 +7,7 @@
         "vendor_id":8849506039,
         "invoice_id":78292,
         "items_purchased": [
-            {
-                "item_name":"Frosted Flakes",
-                "quantity_purchased":2,
-                "item_price":2.49
-            },
-            {
-                "item_name":"Cheddar Cheese Sauce",
-                "quantity_purchased":1,
-                "item_price":6.50
-            },
-            {
-                "item_name":"Mane'n'tail Shampoo",
-                "quantity_purchased":2,
-                "item_price":4.99
-            },
-            
-            {
-                "item_name":"Apple juice 1gal",
-                "quantity_purchased":3,
-                "item_price":3.99
-            },
+
             {
                 "item_name":"Milk",
                 "quantity_purchased":1,
@@ -42,6 +22,113 @@
                 "item_name":"Carrots",
                 "quantity_purchased":8,
                 "item_price":4.32
+            }
+        ]
+        },
+        {
+        "date_of_transaction":"12-20-2019",
+        "time_of_transaction":"4:14 PM",
+        "user_id":7893452221,
+        "vendor_id":8849506039,
+        "invoice_id":78292,
+        "items_purchased": [
+
+            {
+                "item_name":"Milk",
+                "quantity_purchased":1,
+                "item_price":1.50
+            },
+            {
+                "item_name":"Gucci Belt",
+                "quantity_purchased":1,
+                "item_price":280.99
+            },
+            {
+                "item_name":"Olive oil",
+                "quantity_purchased":1,
+                "item_price":5.49
+            },
+            {
+                "item_name":"Mashed potaoes",
+                "quantity_purchased":2,
+                "item_price":4.99
+            },
+            {
+                "item_name":"Umbrella",
+                "quantity_purchased":1,
+                "item_price":12.50
+            }
+        ]
+    },
+
+
+    {
+        "date_of_transaction":"08-01-2019",
+        "time_of_transaction":"07:40 AM",
+        "user_id":7893452221,
+        "vendor_id":8849506039,
+        "invoice_id":23472,
+        "items_purchased": [
+
+            {
+                "item_name":" Paint",
+                "quantity_purchased":1,
+                "item_price":15
+            },
+            {
+                "item_name":"Baskeball",
+                "quantity_purchased":2,
+                "item_price":19.99            
+            },
+            {
+                "item_name":"Playing Cards",
+                "quantity_purchased":1,
+                "item_price": 2.50
+            }
+        ]
+    },
+    {
+        "date_of_transaction":"06-05-2019",
+        "time_of_transaction":"10:10 PM",
+        "user_id":7893452221,
+        "vendor_id":8849506039,
+        "invoice_id":53778,
+        "items_purchased": [
+
+            {
+                "item_name":"Wash Cloths",
+                "quantity_purchased":4,
+                "item_price":4.50
+            },
+            {
+                "item_name":"Scarf",
+                "quantity_purchased":2,
+                "item_price":15.99
+            },
+            {
+                "item_name":"Crew Sock 4 pair",
+                "quantity_purchased":2,
+                "item_price":7.9
+            }
+        ]
+    },
+
+    {
+        "date_of_transaction":"11-20-2018",
+        "time_of_transaction":"2:25 PM",
+        "user_id":7893452221,
+        "vendor_id":8849506039,
+        "invoice_id":14942,
+        "items_purchased": [
+            {
+                "item_name":"Toilet paper 12 pk",
+                "quantity_purchased":1,
+                "item_price":11.95
+            },
+            {
+                "item_name":"Bounty Papetowels",
+                "quantity_purchased":2,
+                "item_price":6.49
             }
         ]
     },

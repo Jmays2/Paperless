@@ -1,11 +1,11 @@
 from pymongo import MongoClient
 import json
-from fpdf import FPDF
+#from fpdf import FPDF
 
 class PDFGenerate(object):
     def __init__(self,transaction_invoice:int):
-        self.pdf = FPDF()
-        self.pdf.add_page()
+ #       self.pdf = FPDF()
+  #      self.pdf.add_page()
         self.conn = MongoClient('mongodb+srv://admin:paperless123@cluster0-lftpp.gcp.mongodb.net/test')
         self.invoice = transaction_invoice
 
@@ -14,7 +14,7 @@ class PDFGenerate(object):
         self.generate_vendor_data(db)
         self.generate_customer_data(db)
 
-        self.pdf.output("simple_demo.pdf")
+   #     self.pdf.output("simple_demo.pdf")
         self.conn.close()
 
     def generate_customer_data(self,transaction):
@@ -22,7 +22,7 @@ class PDFGenerate(object):
 
         full_name = "{0}, {1}".format(db['last_name'],db['first_name'])
         items = transaction['items_purchased']
-        self.pdf.set_font('Arial', 'B', 12)
+    #    self.pdf.set_font('Arial', 'B', 12)
 
         i = 1
         subtotal = 0

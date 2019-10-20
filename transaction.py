@@ -19,7 +19,7 @@ class Transaction(object):
     def populate_user_data(self):
         db = self.conn['paperless']['transactions']
         transaction_data = json.load(self.transaction)
-
+        
         db.insert_one(transaction_data)
 
 
