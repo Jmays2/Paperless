@@ -24,7 +24,7 @@ def newTransaction():
     date_of_transaction = request.form.get("date_of_transaction")
     time_of_transaction = request.form.get("time_of_transaction")
     user_id = int(request.form.get("user_id"))
-    vendor_id = int(request.form.get("time_of_transaction"))
+    vendor_id = int(request.form.get("vendor_id"))
     invoice_id = int(request.form.get("invoice_id"))
     # should be passed in by a one-line argument as a string list
     items_purchased = request.form.get("items_purchased")
