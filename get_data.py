@@ -1,5 +1,6 @@
 from pymongo import MongoClient
 from bson.json_util import dumps
+import json
 
 conn = MongoClient('mongodb+srv://admin:paperless123@cluster0-lftpp.gcp.mongodb.net/test')
 
@@ -22,7 +23,7 @@ def createTransaction(*args):
             'user_id': args[2],
             'vendor_id': args[3],
             'invoice_id': args[4],
-            'items_purchased': args[5],
+            'items_purchased': json.loads(args[5]),
         }
         
         db.insert_one(new_transaction)
