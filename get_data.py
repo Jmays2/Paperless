@@ -31,3 +31,6 @@ def createTransaction(*args):
         return False
     
     return True
+
+def getVendorInfo(vendor_id):
+    return dumps(conn['paperless']['vendor_data'].find({"vendor_id":vendor_id}))
