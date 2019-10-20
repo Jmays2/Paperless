@@ -8,9 +8,25 @@
         "invoice_id":78292,
         "items_purchased": [
             {
-                "item_name":"Haribo Gummy Bears",
+                "item_name":"Frosted Flakes",
+                "quantity_purchased":2,
+                "item_price":2.49
+            },
+            {
+                "item_name":"Cheddar Cheese Sauce",
+                "quantity_purchased":1,
+                "item_price":6.50
+            },
+            {
+                "item_name":"Mane'n'tail Shampoo",
+                "quantity_purchased":2,
+                "item_price":4.99
+            },
+            
+            {
+                "item_name":"Apple juice 1gal",
                 "quantity_purchased":3,
-                "item_price":1.75
+                "item_price":3.99
             },
             {
                 "item_name":"Milk",
@@ -93,7 +109,17 @@
                 "item_name":"Sprikle Topping",
                 "quantity_purchased":1,
                 "item_price":0.99
-            }
+            },
+            {
+                "item_name":"Reese's Cups",
+                "quantity_purchased":2,
+                "item_price":1.65
+            },
+            {
+                "item_name":"Red Bull Energy Drink",
+                "quantity_purchased":1,
+                "item_price":2.99
+            }    
         ]
     }
  ]
