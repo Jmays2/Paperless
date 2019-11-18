@@ -3,6 +3,8 @@ MadHacks 2019
 10/19 - 10/20
 
 Authors:
-Calvin Sienatra
-Christopher Wilson
-Joziah Mays
+<ul>
+  <li>Calvin Sienatra</li>
+  <li>Christopher Wilson</li>
+  <li>Joziah Mays</li>
+</ul>
