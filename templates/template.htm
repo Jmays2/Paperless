@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Swarming 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131201
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/default.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}">
+
+</head>
+<body>
+<div id="logo">
+	<h1><a href="#" class="icon icon-group"><span>Paperless</span></a></h1>
+</div>
+<div id="header">
+	<div id="menu" class="container">
+		<ul>
+			<li class="{current_page_item"><a href="{{ url_for('home') }}">Homepage</a></li>
+			<li><a href="#" accesskey="1" title="">Services</a></li>
+			<li><a href="#" accesskey="2" title="">Our Clients</a></li>
+			<li><a href="{{ url_for('about') }}">About Us</a></li>
+			<li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+			<li><a href="{{ url_for('login')}}">Login</a></li>
+		</ul>
+	</div>
+</div>
+
+{% block content %}
+{% endblock %}
+</body>
+</html>
