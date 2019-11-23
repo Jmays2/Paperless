@@ -1,8 +1,25 @@
 from flask import Flask
 from flask import request
+from flask import render_template
 from get_data import findAllTransactions,getUserInfo,getTransaction,createTransaction,getVendorInfo
 
 app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template("home.htm")
+
+@app.route('/about/')
+def about():
+    return render_template("about_us.htm")
+
+@app.route('/login/')
+def login():
+    return render_template("login_page.htm")
+
+@app.route('/contact_us/')
+def contact():
+    return render_template("contact_page.htm")
 
 @app.route("/getAllTransactions",  methods=['GET','POST'])
 def getTransactions():
@@ -37,4 +54,4 @@ def getVendorData():
     return getVendorInfo(vendor_id)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
